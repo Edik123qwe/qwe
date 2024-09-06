@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <!-- > - демонстрирует вложенность в другой тег
+    main>h1
+    * - дублирование элементов
+    p*3
+    + - позволяет создать сразу несоклько элементов
+    p+img+h1
+    ^(цифра 6) - позволяет выйти с уровня вложенности
+    main>h1^img -->
+    <!-- Б - блок
+    Э - элемент
+    М - модификатор
+    <main class="main">
+        <p class="main__p">
+            <span class="main__p--ann"></span>
+        </p>
+    </main> -->
+    <main>
+        <header>
+            <div><img src="images/logo.svg"></div>
+            <nav>
+                <a href="">услуги и стоимость</a>
+                <a href="">обо мне</a>
+                <a href="">отзывы</a>
+                <a class="nav__link" href="">записаться</a>
+            </nav>
+        </header>
+        <div class="main__container">
+            <h1>Пробуди свою судьбу</h1>
+            <p>Не просто напишу о Вас, а проживу расчет вместе с Вами</p>
+            <a class="nav__link2" href="">посмотреть услуги</a>
+        </div>
+    </main>
+    <section class="second">
+        <p class="second_offer">
+            Около 6 лет назад, как и многие люди, у меня появились вопросы:<u>Для чего я здесь? Почему не получаю удовлетворения от жизни, хотя вроде бы все есть?</u> Дом, семья, работа… А внутри какая-то пустота. Хочется заполнить эту пустоту, а вот чем?
+        </p>
+        <div class="second__container">
+            <h4>Ирина Зайдуллина</h4>
+            <img src="images/logo2.svg">
+            <h4> НУМЕРОЛОГ</h4>
+        </div>
+    </section>
+    <section class="third">
+        <div>
+            <h1>НУМЕРОЛОГИЯ,</h1>
+            <p>или ключ к тому, как  быть счастливым человеком!</p>
+            <img src="/images/Irina Zaydullina.svg">
+        </div>
+        
+    </section>
+</body>
+</html>

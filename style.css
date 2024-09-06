@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@font-face {
+    font-family: "Trickster";
+    src:
+      local("Forum"),
+      url("/fonts/Forum-Regular.ttf") format("opentype")
+}
+
+h1{
+    font-family: 'Forum';
+}
+
+body{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+main{
+    background-image: url('/images/main.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color:#FAEEFB;
+}
+header{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color:#FAEEFB;
+    text-decoration: none;
+    margin-left: 60px;
+    font-family: 'Arial';
+}
+h1{
+    text-transform: uppercase;
+    font-weight: 400 !important;
+    font-size: 64px !important;
+    margin:0 !important;
+}
+.main__container{
+    margin-left: 100px;
+    margin-top: 400px;
+}
+nav a{
+    font-size: 18px;
+}
+
+.nav__link{
+    background-color: #FAEEFB;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #5F4E75;
+}
+.nav__link2{
+    margin: 0;
+    display: inline-block;
+    margin-top: 15px;
+    border: 2px solid #FAEEFB;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.second{
+    padding: 150px 250px;
+    background-color: #FAEEFB;
+    font-size: 32px;
+    font-family: 'Forum';
+    font-weight: 400;
+    text-align: center;
+}
+.second__container{
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    justify-content: center;
+}
